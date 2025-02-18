@@ -26,7 +26,7 @@ This project is a Smart Resume ATS (Applicant Tracking System) that leverages Go
     ```
 
 3. **Set up environment variables**:
-    Create a [.env](http://_vscodecontentref_/1) file in the root directory and add your Google API key:
+    Create a [.env](.env) file in the root directory and add your Google API key:
     ```env
     GOOGLE_API_KEY=your_google_api_key
     ```
@@ -49,6 +49,8 @@ This project is a Smart Resume ATS (Applicant Tracking System) that leverages Go
 ## Project Structure
 
 - [app.py](app.py): Main application file containing the Streamlit interface and functions for resume analysis.
+- [prompts.py](prompts.py): File containing the prompts used for resume analysis and skill gap recommendations.
+- [utils.py](utils.py): Utility functions for file handling and other helper methods.
 - [pyproject.toml](pyproject.toml): Project configuration file.
 - [pdm.lock](pdm.lock): Lock file for dependencies.
 - [README.md](README.md): Project documentation.
