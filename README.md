@@ -1,6 +1,6 @@
 # Smart-Resume-ATS-System
 
-Smart Resume ATS System using LLMs from Google
+Smart Resume ATS System (Applicant Tracking System) using LLMs from Google
 
 ## Description
 
